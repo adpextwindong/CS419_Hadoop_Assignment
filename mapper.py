@@ -5,7 +5,7 @@ import sys
 def mapper():
 	dict = {}
 	for line in sys.stdin:
-		print "DEBUG {0}".format(line)
+		#print "DEBUG {0}".format(line)
 		for word in line.split(" "):
 			if word not in dict:
 				dict[word] = 1;
